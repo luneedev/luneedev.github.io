@@ -1,32 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+
 html {
-	text-align: center;
-	font-family: Ubuntu;
-	user-select: none;
-	background-color: black;
+    background: black;
+    color: white;
+    font-family: JetBrains Mono;
 }
-h2, h4 {
-	color: white;
+div {
+    transition: .25s;
+    opacity: .5;
+    padding: 15px;
+    border: solid white 3px;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
-h3 {
-	color: #025fe2;
-	padding: 10px;
-	border-radius: 5px;
-	border-color: #025fe2;
-	border-width: 3px;
-	border-style: solid;
-	font-weight: 500;
-	transition: .25s;
-}
-h3:hover {
-	background-color: #025fe2;
-	transition: .25s;
-	color: white;
+div:hover {
+    transition: .25s;
+    opacity: 1;
 }
 a {
-	text-decoration: none;
-	color: black;
-}
-span, img {
-	vertical-align: middle;
+    color: cyan;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
 }
